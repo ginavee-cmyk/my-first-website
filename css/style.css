@@ -176,3 +176,12 @@ html {
     border-color: #1565c0;
     box-shadow: 0 0 4px rgba(21, 101, 192, 0.3);
 }
+/* About page image */
+.about-image {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    margin: 20px 0;
+}
