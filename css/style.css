@@ -185,3 +185,18 @@ html {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     margin: 20px 0;
 }
+/* Website Footer */
+.footer {
+    background-color: #17365D;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.footer p {
+    color: white;
+    font-size: 14px;
+    margin: 8px 0;
+}
