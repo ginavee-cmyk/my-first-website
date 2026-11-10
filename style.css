@@ -1,0 +1,178 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #263238;
+    margin: 0;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Main heading */
+h1 {
+    color: #1565c0;
+    font-size: 36px;
+}
+
+/* Paragraph */
+p {
+    font-size: 18px;
+    color: #546e7a;
+}
+/* Main content card */
+.container {
+    background-color: white;
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+/* Button styling */
+button {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0d47a1;
+}
+/* Responsive design for mobile phones */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 12px;
+    }
+
+    .container {
+        padding: 25px 18px;
+        margin: 20px auto;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+/* Navigation bar */
+.navbar {
+    background-color: #17365D;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Navigation links */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hover effect */
+.navbar a:hover {
+    color: #90CAF9;
+}
+/* Mobile navigation */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+/* Website sections */
+section {
+    background-color: white;
+    padding: 35px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+/* Section headings */
+section h2 {
+    color: #17365D;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/* Section paragraphs */
+section p {
+    line-height: 1.7;
+}
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+/* Contact form */
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 500px;
+}
+
+/* Form labels */
+#contactForm label {
+    font-weight: bold;
+    color: #17365D;
+}
+
+/* Input fields */
+#contactForm input,
+#contactForm textarea {
+    padding: 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Message box */
+#contactForm textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Input focus effect */
+#contactForm input:focus,
+#contactForm textarea:focus {
+    outline: none;
+    border-color: #1565c0;
+    box-shadow: 0 0 4px rgba(21, 101, 192, 0.3);
+}
